@@ -1,0 +1,189 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+  }
+
+  .header {
+   flex: 1;
+   color: white;
+   font-size:24px;
+  }
+
+  .navbar {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(56, 53, 71);
+
+  }
+  .navbar ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+  }
+  .navbar li {
+   margin: 0 15px;
+  }
+  .navbar a {
+    text-decoration: none;
+    padding: 10px 5px;
+    color: white;
+    text-decoration: none;
+
+  }
+  .navbar a:hover {
+    background-color: #575757; /* Optional: Change background color on hover */
+    color: white; /* Ensure the link text remains white on hover */
+  }
+  .container1 {
+   background-color: rgb(56, 53, 71);
+   margin: 0;
+   padding: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   color: white;
+  }
+  .item {
+width: 400px;
+  }
+
+   .item h1 {
+    font-size: 48px;
+    font-weight: 800;
+   }
+
+   .item p {
+    font-size: 18px;
+   }
+
+  .item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .item button{
+    color: white;
+    background-color: rgb(0, 106, 255);
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 0x;
+    border-radius: 15px;
+    
+  }
+  .item button:hover {
+    background-color: darkblue;
+  }
+  .centered-heading {
+    text-align: center; 
+    margin-top: 20px; 
+  }
+  .container2 {
+    background-color: white;
+    margin: 0 300px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+    .card {
+        flex: 0 1 calc(25% - 20px);
+        margin: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        
+        
+
+    }
+    .card img {
+        max-width: 100%;
+        height: auto;
+        outline: 2px solid blue;
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+
+    .card p {
+        margin: 10px 0 0 0; 
+        padding: 0;
+    }
+
+
+  .container3 {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937d6;
+    padding: 100px 0
+  }
+  .container3 .quote-wrapper {
+    margin: 0 350px; /* Margin for the text */
+}
+
+  .author {
+    display: block;
+    margin-top: 10px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: right;
+  }
+ 
+.container4 {
+    background-color: white;
+    margin: 0 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.bluebox {
+    background-color: rgb(86, 86, 245);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 20px;
+}
+.header-action {
+    font-size: 26px;
+    margin: 10px 0;
+    font-weight: 800;
+    flex-grow: 1;
+}
+.align-right {
+    text-align: center;
+    flex-shrink: 0;
+    margin-left: 20px;
+}
+.bluebox-text {
+    font-size: 18px; /* Ensure the text size is appropriate */
+    color: white;
+    flex-grow: 1; /* Allow the text to grow and take available space */
+}
+    .footer {
+        height: 72px;
+        background-color: rgb(56, 53, 71);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 10px; /* Adjust padding to move footer content away from edges */
+        margin-top: auto;
+      }
